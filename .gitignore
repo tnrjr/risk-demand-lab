@@ -1,1 +1,7 @@
 data/Precificacao/test.tsv
+venv/
+venv
+.venv
+.pytest_cache
+.ruff_cache
+__pycache__
