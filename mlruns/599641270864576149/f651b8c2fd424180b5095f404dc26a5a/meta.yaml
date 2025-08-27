@@ -1,0 +1,14 @@
+artifact_uri: file:///home/taryj/projetos/risk-demand-lab/mlruns/599641270864576149/f651b8c2fd424180b5095f404dc26a5a/artifacts
+end_time: 1756260545896
+entry_point_name: ''
+experiment_id: '599641270864576149'
+lifecycle_stage: active
+run_id: f651b8c2fd424180b5095f404dc26a5a
+run_name: logreg_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756260543565
+status: 3
+tags: []
+user_id: taryj

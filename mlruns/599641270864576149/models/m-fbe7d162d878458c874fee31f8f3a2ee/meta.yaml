@@ -1,0 +1,10 @@
+artifact_location: file:///home/taryj/projetos/risk-demand-lab/mlruns/599641270864576149/models/m-fbe7d162d878458c874fee31f8f3a2ee/artifacts
+creation_timestamp: 1756260543740
+experiment_id: '599641270864576149'
+last_updated_timestamp: 1756260545892
+model_id: m-fbe7d162d878458c874fee31f8f3a2ee
+model_type: null
+name: model
+source_run_id: f651b8c2fd424180b5095f404dc26a5a
+status: 2
+status_message: null

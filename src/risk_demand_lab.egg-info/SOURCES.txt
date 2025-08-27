@@ -1,0 +1,11 @@
+README_WEEK1.md
+pyproject.toml
+src/app/main.py
+src/risk_demand_lab.egg-info/PKG-INFO
+src/risk_demand_lab.egg-info/SOURCES.txt
+src/risk_demand_lab.egg-info/dependency_links.txt
+src/risk_demand_lab.egg-info/requires.txt
+src/risk_demand_lab.egg-info/top_level.txt
+src/train/train_credit.py
+src/validation/ge_validate.py
+tests/test_smoke.py

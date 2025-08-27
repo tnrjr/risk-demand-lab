@@ -1,0 +1,6 @@
+
+# Edite as colunas abaixo conforme seu CSV real.
+# Exemplo comum em competições: Id e Target/Price/etc.
+expected_columns:
+  - Id
+  - Target

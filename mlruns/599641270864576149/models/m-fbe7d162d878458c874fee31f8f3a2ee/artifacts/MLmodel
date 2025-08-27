@@ -1,0 +1,22 @@
+artifact_path: file:///home/taryj/projetos/risk-demand-lab/mlruns/599641270864576149/models/m-fbe7d162d878458c874fee31f8f3a2ee/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.1
+model_id: m-fbe7d162d878458c874fee31f8f3a2ee
+model_size_bytes: 779
+model_uuid: m-fbe7d162d878458c874fee31f8f3a2ee
+prompts: null
+run_id: f651b8c2fd424180b5095f404dc26a5a
+utc_time_created: '2025-08-27 02:09:03.775612'

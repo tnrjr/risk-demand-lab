@@ -1,0 +1,50 @@
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-demand-lab"
+version = "0.1.0"
+description = "Semana 1 — Fundação do portfólio ML Jr (repo, linting, tests, API, MLflow, GE)"
+readme = "README_WEEK1.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "mlflow",
+    "great_expectations",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "pre-commit",
+    "httpx",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+exclude = '/(\.venv|\.git|\.mypy_cache|\.pytest_cache|build|dist|mlruns)/'
+
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "B", "UP", "C90"]
+ignore = [
+  "E501",  # line length handled by black
+]
+exclude = ["mlruns", ".venv", "build", "dist"]
+
+[tool.ruff.isort]
+combine-as-imports = true
+known-first-party = ["src"]
+

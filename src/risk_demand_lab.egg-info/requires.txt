@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn
+mlflow
+great_expectations
+python-dotenv
+
+[dev]
+pytest
+black
+ruff
+pre-commit
+httpx
